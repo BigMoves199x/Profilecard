@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="profile-card">
+        <img src="./image/image.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+        <h2 class="name" data-testid="fullName">Fawaz Olawale Arole</h2>
+        <h4 data-testid="jobTitle">Frontend Developer</h4>
+        <p data-testid="shortBio" class="about">
+            My passion for art has driven me,to pursue a career as a Developer.
+            I design and build both the frontendand backend of web applications.
+            Ensuring smooth functionality,and a seamless data flow.</p>
+        <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+        <p data-testid="emailAddress">Fawazarole.o@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/BigMoves199x" alt="mygit">GitHub</a>
+            <a href="https://www.linkedin.com/in/fawaz-arole-776593273/" alt="mylinkedin">LinkedIn</a>
+        </div>
+        <p id="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
