@@ -57,7 +57,7 @@ body {
     padding: 8px;
     font-size: 14px;
     margin-top: 6px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 12px;
 }
 .profile-card .name {
@@ -67,7 +67,7 @@ body {
 }
 
 .profile-card .title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
 }
 
