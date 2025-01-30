@@ -4,7 +4,6 @@ function updateTime() {
     utcTimeElement.textContent = `${now.toUTCString()}`;
 }
 
-// Update time on page load
 updateTime();
 
 // Update time every second
